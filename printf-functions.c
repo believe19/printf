@@ -3,8 +3,12 @@
 #include "main.h"
 #include <stdio.h>
 #include <stddef.h>
+#include <stdarg.h>
 
-void (*f)(char c, dt *args)
+void (*f)(char *s, dt *args)
 {
-
+    /* if s is empty, return an exit */
+    if (s == NULL)
+        exit(1);
+    
 }

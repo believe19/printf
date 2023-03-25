@@ -11,7 +11,7 @@ typedef struct datatype
 } dt;
 
 /* create a prototype for printf */
-void (*f)(char *c, dt *args);
+void (*f)(char *s, dt *args);
 
 /* create a repo for all dt types */
 dt dt_array[] = 
