@@ -15,7 +15,7 @@ int _printf(const char *s, ...)
 {
     /* if s is empty, return an exit */
     if (s == NULL)
-        exit(-1);
+        return (-1);
     /* break down the s*/
     /* get the delimiters starting with %*/
     /* map var1 with the type dt.t */
@@ -29,5 +29,5 @@ int _printf(const char *s, ...)
         return 0;
 
     return 0;
-    
+
 }
