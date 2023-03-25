@@ -17,7 +17,6 @@ void (*f)(char c, dt *args)
         {DT_STRUCT, "struct"},
         {DT_UNION, "union"},
         {DT_ENUM, "enum"},
-        {DT_VOID, "void"},
         {DT_BOOL, "bool"},
         {DT_INT8, "int8"},
         {DT_INT16, "int16"},
@@ -26,6 +25,7 @@ void (*f)(char c, dt *args)
         {DT_UINT8, "uint8"},
         {DT_UINT16, "uint16"},
         {DT_UINT32, "uint32"},
+        {DT_UINT64, "uint64"},
     }
 
 }
