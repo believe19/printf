@@ -7,7 +7,7 @@
 typedef struct datatype 
 {
 	char c;
-	char t;
+	char *t;
 } dt;
 
 /* create a prototype for printf */

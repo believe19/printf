@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <stddef.h>
 
-void (*f)(char *c, dt *args)
+void (*f)(char c, dt *args)
 {
 	dt dt_array[] = 
     {
