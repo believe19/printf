@@ -13,4 +13,21 @@ typedef struct datatype
 /* create a prototype for printf */
 void (*f)(char *c, dt *args);
 
+/* create a repo for all dt types */
+dt dt_array[] = 
+    {
+        {'c', 'char'},
+		{'d', 'int'},
+		{'f', 'float'},
+        {'g', 'double'},
+        {'i', 'int'},
+        {'l', 'long'},
+        {'s', 'char'},
+		{'t', 'char'},
+        {'u', 'int'},
+        {'x', 'int'},
+        {'X', 'int'},
+    };
+
+
 #endif /* PRINTF_CALL_H */
