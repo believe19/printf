@@ -1,5 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef PRINT_FUNCTION_H
+#define PRINT_FUNCTION_H
 #include <stdarg.h>
 #include <stdio.h>
 #include <unistd.h>
@@ -7,6 +7,7 @@
 #define UNUSED(x) (void)(x)
 #define BUFF_SIZE 1024
 
+/* credit to yonasleykun27 */
 /* FLAGS */
 #define F_MINUS 1
 #define F_PLUS 2
@@ -114,4 +115,4 @@ int is_digit(char);
 long int convert_size_number(long int num, int size);
 long int convert_size_unsgnd(unsigned long int num, int size);
 
-#endif /* MAIN_H */
+#endif /* PRINT_FUNCTION_H */

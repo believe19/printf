@@ -3,6 +3,8 @@
 #include <stdio.h>
 #include "main.h"
 
+/* credit to yonasleykun27 */
+
 /**
  * main - Entry point
  *
