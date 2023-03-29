@@ -1,3 +1,4 @@
+/* copyright credit to yonasleykun27 */
 /* main.c */
 #include <limits.h>
 #include <stdio.h>

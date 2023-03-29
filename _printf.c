@@ -1,4 +1,4 @@
-/* credit to yonasleykun27 */
+/* copyright credit to yonasleykun27 */
 #include "main.h"
 
 void print_buffer(char buffer[], int *buff_ind);

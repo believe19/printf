@@ -1,4 +1,4 @@
-/* credit to yonasleykun27 */
+/* copyright credit to yonasleykun27 */
 #include "main.h"
 
 /************************* WRITE HANDLE *************************/
